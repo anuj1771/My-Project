@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+#wrapper
+{
+	height:2150px;
+	width:1330px;
+	/*background:#FF99FF;*/
+	margin:0 auto;
+	overflow:hidden;
+}
+#blue
+{
+	height:30px;
+	width:1330px;
+	background-color:rgba(102,0,204,0.7);
+	margin:0 auto;
+	text-align:center;
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	padding-top:10px;
+	color:rgba(255,255,255,1);
+}
+#header1
+{
+	height:38px;
+	width:1330px;
+	margin:0 auto;
+	border-bottom:1px solid rgba(51,51,51,0.3);
+	background-color:#FFFFFF;
+}
+.wishlist1
+{
+	height:15px;
+	width:600px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	float:left;
+	text-align:left;
+	padding:10px 10px;
+	font-style:bold;
+}
+.login
+{
+	height:35px;
+	width:240px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	float:left;
+	margin-left:250PX;
+}
+.btn
+{
+	height:30px;
+	width:90px;
+	background:rgba(255,255,255,1);
+	border:none;
+	font-style:bold;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	padding-right:10px;
+	padding-left:10px;
+	cursor:pointer;
+}
+.logo
+{
+	height:25px;
+	width:30px;
+	float:right;
+	background:#FFFFFF;
+	padding-right:3px;
+	padding-top:10px;
+	cursor:pointer;
+}
+#upscale
+{
+	height:110px;
+	width:1330px;
+	background:rgba(255,255,255,1);
+}
+.order_status1
+{
+	height:50px;
+	width:380px;
+/*	background-color:#FFFFFF;*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:bold;
+	font-size:15px;
+	color:#000000;
+	float:left;
+	padding-left:20px;
+	margin-left:10px;
+	padding-top:50px;
+}
+.order_status2
+{
+	height:60px;
+	width:45px;
+/*	background-color:#FFFFFF;*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:bold;
+	font-size:15px;
+	color:#000000;
+	float:left;
+	margin-left:90px;
+	padding-left:200px;
+	padding-top:50px;
+	cursor:pointer;
+}
+.srch_logo
+{
+	height:50px;
+	width:50px;
+	/*background-color:#999999;*/
+	background-image:url(img/search.png);
+	background-repeat:no-repeat;
+	float:right;
+	margin-top:45px;
+	margin-right:95px;
+}
+.menu
+{
+	height:30px;
+	width:1330px;
+	background:#FFFFFF;
+	border-bottom:2px solid rgba(51,51,51,0.3);
+}
+.menu ul
+{
+	alignment-adjust:auto;
+	padding-left:320px;
+}
+.menu ul li
+{
+	float:left;
+	list-style:none;
+	padding-left:10px;
+}
+.menu ul li a
+{
+	display:block;
+	height:15px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	line-height:10px;
+	text-decoration:none;
+	text-align:center;
+	font-style:bold;
+}
+.menu ul li a.current
+{
+	font-style:inherit;
+	border-bottom:2px solid #6633CC;
+}
+.menu ul li a:hover
+{
+	border-bottom:2px solid #6633CC;
+}
+#shop
+{
+	height:80px;
+	width:1330px;
+	background:rgba(255,255,255,1);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:45px;
+	font-style:bold;
+	text-align:center;
+	padding-top:20px;
+}
+#contact
+{
+	height:140px;
+	width:1330px;
+	margin:0 auto;
+	/*background:#99FFCC;*/
+	font-family:"Comic Sans MS", cursive;
+	font-size:22px;
+	font-style:bold;
+	color:#000000;
+	line-height:30px;
+	text-align:center;
+	padding-top:30px;
+}
+#mapbox
+{
+	height:600px;
+	width:1330px;
+	/*background:rgba(153,153,153,1);*/
+	margin-top:20px;
+}
+
+#number
+{
+	height:200px;
+	width:1330px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:50px;
+	cursor:pointer;
+}
+.num
+{
+	height:30px;
+	width:1330px;
+	margin:0 auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-style:normal;
+	text-align:center;
+	color:#666666;
+}
+
+
+#footer1
+{
+	height:500px;
+	width:1330px;
+	border-top:2px solid rgba(102,102,102,0.7);
+}
+.boxes1
+{
+	height:500px;
+	width:235px;
+	background:#FFFFFF;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	padding-left:0;
+}
+.boxes2
+{
+	height:500px;
+	width:350px;
+	background:#FFFFFF;
+	float:left;
+	margin-left:9px;
+	margin-right:5px;
+	cursor:pointer;
+	padding-left:0;
+}
+.boxhvr
+{
+	overflow:hidden;
+	position:absolute;
+	-webkit-transition:all 200ms linear;
+}
+.boxhvr img:hover
+{
+	transform:scale(1.5);
+	transition:all 0.5s ease;
+}
+
+#footer2
+{
+	height:220px;
+	width:1330px;
+	margin:0 auto;
+	background:rgba(204,204,204,0.1);
+	padding-top:80px;
+	
+}
+.flogo
+{
+	height:45px;
+	width:1330px;
+	margin:0 auto;
+	padding-top:5px;
+	padding-left:400px;
+	/*background:#999999;*/
+}
+.ftrmenu
+{
+	height:50px;
+	width:1330px;
+	/*background:#00CC66;*/
+}
+.ftrmenu ul
+{
+	alignment-adjust:auto;
+	padding-left:340px;
+}
+.ftrmenu ul li
+{
+	float:left;
+	list-style:none;
+	display:block;
+	height:25px;
+	padding-right:25px;
+	font-family:Javanese Text;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	text-decoration:none;
+	text-align:center;
+	font-style:bold;
+	cursor:pointer;
+}
+.ftrmenu ul li:hover
+{
+	color:rgba(102,102,102,1);
+}
+.add
+{
+	height:30px;
+	width:1330px;
+	/*background:rgba(0,204,255,1);*/
+	alignment-adjust:auto;
+	list-style:none;
+	font-family:Javanese Text;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	line-height:10px;
+	text-decoration:none;
+	text-align:center;
+	font-style:bold;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="blue">FINAL MARKDOWNS! 50–70% OFF SELECT STYLES. </div>
+	<div id="header1">
+    	<div class="wishlist1">Free Shipping Over $100 to US, CA, and AU! Free Shipping Over 		$150 to    all other countries</div>
+		<div class="login"> 
+        	<input type="submit" value="Login" class="btn" />
+            <input type="submit" value="Registration" class="btn" />
+        </div>
+			<div class="logo"><img src="img/00.jpg" /></div>
+            <div class="logo"><img src="img/shopping.jpg" /></div>
+            <div class="logo"><img src="img/00.jpg" /></div>
+            <div class="logo"><img src="img/heart.jpg" /></div>
+     </div>
+	 <div id="upscale">
+     	<div class="order_status1">Order Status</div>
+        <div class="order_status1"><center><img src="img/upscale.png" /></center></div>
+        <div class="order_status2">Search</div>
+        <div class="srch_logo"></div>
+     </div>
+     
+	<div class="menu">
+		<ul>
+    		<li><a href="home.html">Home</a></li>
+        	<li><a href="2shop.html">Shop</a></li>
+            <li><a href="3dresses.html">Dresses</a></li>
+            <li><a href="4portfolio.html">Portfolio</a></li>
+            <li><a href="5sale.html" >Sale</a></li>
+            <li><a href="6terms.html">Terms & Service</a></li>
+            <li><a href="7about.html" >About</a></li>
+        	<li><a href="8contact.html" class="current">Contact</a></li>
+    	</ul>
+	</div>
+    <div id="shop"><b>CONTACT</b></div>
+    
+ <div id="contact">
+ 	Fashion is a very stressful place to work because of the demands of<br/> doing the shows – no one expects a writer to produce two books a year <br/> on the dot – but it’s also a very toxic place to work.
+ </div>   
+    
+    
+    <div id="mapbox">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117788.78065881379!2d75.79675360704698!3d22.694788761833774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3962fce49a218fb3%3A0xa354048e434f11e0!2sfuture+multimedia+bhawarkua!3m2!1d22.694803999999998!2d75.866794!5e0!3m2!1sen!2sin!4v1496054952626" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe> 
+        
+    </div>
+    
+    <div id="number">
+    	<div class="num">918-565-1750</div>
+        <div class="num">Andover Dr, Gurnee, IL 60031, USA</div>
+        <div class="num">customerservice@upscale.com</div>
+        <div class="num"><table align="center">
+        	<tr>
+                	<td height="44" width="37"><img src="img/fb.jpg" /></td>
+                    <td width="38"><img src="img/twiter.jpg" /></td>
+                    <td width="36"><img src="img/insta.jpg" /></td>
+                    <td width="36"><img src="img/pintrest.jpg" /></td>
+                    <td width="40"><img src="img/youtube.jpg" /></td>
+                </tr>
+        </table></div>
+    </div>
+    
+    
+    
+    
+    <div id="footer1">
+    
+    	<div class="boxes1">
+       	  <table height="313" width="235" >
+            	<tr>
+                	<td colspan="5" height="70"><h1>UPSCALE</h1></td>
+                </tr>
+                <tr>
+                	<td colspan="5" height="166">Over the years I have learned that what is important in a dress is the woman who is wearing it. Fashion moves so quickly that, unless you have a strong point of view, you<br/> can lose integrity. Men have got more of a discerning eye.</td>
+                </tr>
+                <tr>
+                	<td height="44" width="35"><img src="img/fb.jpg" /></td>
+                    <td width="36"><img src="img/twiter.jpg" /></td>
+                    <td width="34"><img src="img/insta.jpg" /></td>
+                    <td width="34"><img src="img/pintrest.jpg" /></td>
+                    <td width="60"><img src="img/youtube.jpg" /></td>
+                </tr>
+            </table>
+        </div>
+   <div class="boxes2">
+        <table height="500" width="311" >
+        	<tr>
+            	<td colspan="2" height="30"><center><h3>Top Rated Products</h3></center></td>
+            </tr>
+            <tr>
+            	<td width="94" class="boxhvr" ><img src="img/th2O3SGKP5.jpg" height="120" /></td>
+                <td width="244" align="center">Bomber Jacket Print<br /><br /> 39.95$</td>
+            </tr>
+            <tr>
+            	<td class="boxhvr"><img src="img/thJXJ79JZN.jpg" height="120" /></td>
+                <td align="center"> L/S Knit Dress <br /><br />84.95$</td>
+            </tr>
+            <tr>
+            	<td class="boxhvr"><img src="img/thPME1HH8G.jpg" height="120" /></td>
+                <td align="center">Lexy<br />47.95$<br /></td>
+            </tr>
+        </table>
+        </div>
+    <div class="boxes2">
+        <table height="500" width="387" >
+        	<tr>
+            	<td colspan="2" height="30"><center><h3>Recent Posts</h3></center></td>
+            </tr>
+            <tr>
+            	<td width="160" height="150" class="boxhvr"><img src="img/th1W2YZH6H.jpg" height="100" /></td>
+                <td width="228" align="center" >STRAIGHT TO TOP<br /><br /> May24,2017</td>
+            </tr>
+            <tr>
+            	<td height="150" class="boxhvr"><img src="img/thVZ945236.jpg" height="100" /></td>
+                <td align="center">LEATHER & LACE<br /><br />May23,2017</td>
+            </tr>
+            <tr>
+            	<td height="150" class="boxhvr"><img src="img/thWU4JFTC8.jpg" height="100" /></td>
+                <td align="center">BACK TO BACK<br /><br />May23,2017<br /></td>
+            </tr>
+        </table>
+        </div>
+     <div class="boxes1">
+        <table height="204" width="150" align="right" >
+        	<tr height="30">
+            	<td width="150" height="74"><center><h3>Newsletter</h3></center></td>
+            </tr>
+            <tr>
+            	<td height="86">Email Address: <br /><br /><input type="text" class="text" placeholder="your email address" /></td>
+            </tr>
+            <tr>
+            	<td height="34"><input type="submit" value="SUBSCRIBE" /></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    
+       <div id="footer2">
+    	<div class="flogo">
+        	<img src="img/flogo1.jpg" />
+            <img src="img/flogo4.jpg" />
+            <img src="img/flogo2.jpg" />
+            <img src="img/flogo5.jpg" />
+            <img src="img/flogo3.jpg" />
+        </div>
+        <div class="ftrmenu">
+		<ul>
+    		<li>TRACKING ORDER</li>
+            <li>CONTACT</li>
+            <li>FAQ</li>
+            <li>OVER STORES</li>
+            <li>TERMS OF SERVICE</li>
+            <li>ABOUT</li>
+        </ul></div>
+        <div class="add">© 2005 - 2017 DAHZ THEME. ALL RIGHTS RESERVED.</div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
+

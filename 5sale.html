@@ -1,0 +1,1045 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+#wrapper
+{
+	height:2300px;
+	width:1330px;
+	/*background:#FF99FF;*/
+	margin:0 auto;
+	overflow:hidden;
+}
+#blue
+{
+	height:30px;
+	width:1330px;
+	background-color:rgba(102,0,204,0.7);
+	margin:0 auto;
+	text-align:center;
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	padding-top:10px;
+	color:rgba(255,255,255,1);
+}
+#header1
+{
+	height:38px;
+	width:1330px;
+	margin:0 auto;
+	border-bottom:1px solid rgba(51,51,51,0.3);
+	background-color:#FFFFFF;
+}
+.wishlist1
+{
+	height:15px;
+	width:600px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	float:left;
+	text-align:left;
+	padding:10px 10px;
+	font-style:bold;
+}
+.login
+{
+	height:35px;
+	width:240px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	float:left;
+	margin-left:250PX;
+}
+.btn
+{
+	height:30px;
+	width:90px;
+	background:rgba(255,255,255,1);
+	border:none;
+	font-style:bold;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	padding-right:10px;
+	padding-left:10px;
+	cursor:pointer;
+}
+.logo
+{
+	height:25px;
+	width:30px;
+	float:right;
+	background:#FFFFFF;
+	padding-right:3px;
+	padding-top:10px;
+	cursor:pointer;
+}
+#upscale
+{
+	height:110px;
+	width:1330px;
+
+	background:rgba(255,255,255,1);
+}
+.order_status1
+{
+	height:50px;
+	width:380px;
+/*	background-color:#FFFFFF;*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:bold;
+	font-size:15px;
+	color:#000000;
+	float:left;
+	padding-left:20px;
+	margin-left:10px;
+	padding-top:50px;
+}
+.order_status2
+{
+	height:60px;
+	width:45px;
+/*	background-color:#FFFFFF;*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:bold;
+	font-size:15px;
+	color:#000000;
+	float:left;
+	margin-left:90px;
+	padding-left:200px;
+	padding-top:50px;
+	cursor:pointer;
+}
+.srch_logo
+{
+	height:50px;
+	width:50px;
+	/*background-color:#999999;*/
+	background-image:url(img/search.png);
+	background-repeat:no-repeat;
+	float:right;
+	margin-top:45px;
+	margin-right:95px;
+}
+.menu
+{
+	height:30px;
+	width:1330px;
+	background:#FFFFFF;
+	border-bottom:2px solid rgba(51,51,51,0.3);
+}
+.menu ul
+{
+	alignment-adjust:auto;
+	padding-left:320px;
+}
+.menu ul li
+{
+	float:left;
+	list-style:none;
+	padding-left:10px;
+}
+.menu ul li a
+{
+	display:block;
+	height:15px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	line-height:10px;
+	text-decoration:none;
+	text-align:center;
+	font-style:bold;
+}
+.menu ul li a.current
+{
+	font-style:inherit;
+	border-bottom:2px solid #6633CC;
+}
+.menu ul li a:hover
+{
+	border-bottom:2px solid #6633CC;
+}
+#shop
+{
+	height:80px;
+	width:1330px;
+	background:rgba(255,255,255,1);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:45px;
+	font-style:bold;
+	text-align:center;
+	padding-top:20px;
+}
+#lrbox
+{
+	height:1200px;
+	width:1330px;
+	margin-top:10px;
+	/*background:#CC66CC;*/
+}
+.left_box
+{
+	height:1200px;
+	width:300px;
+	/*background:#00FFFF;*/
+	float:left;
+	cursor:pointer;
+}
+.left_box h2
+{
+	font-size:18px;
+	font-family:Arial;
+	text-align:left;
+	color:#000000;
+	cursor:pointer;
+}
+.color
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#999999;
+	margin-bottom:20px;
+}
+#categori
+{
+	height:230px;
+	width:300px;
+	margin-top:50px;
+	cursor:pointer;
+}
+.cate_box
+{
+	height:30px;
+	width:300px;
+	border-bottom:2px solid rgba(204,204,204,1);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#999999;
+	text-align:justify;
+}
+.num
+{
+	height:30px;
+	width:30px;
+	float:right;
+}
+
+#tags
+{
+	height:150px;
+	width:300px;
+}
+.tag
+{
+	height:25px;
+	width:80px;
+	border-radius:15px;
+	border:1px solid rgba(153,153,153,1);
+	text-align:center;
+	font-size:14px;
+	padding-top:5px;
+	color:rgba(204,204,204,1);
+	float:left;
+	margin:8px;
+}
+
+#recent
+{
+	height:360px;
+	width:300px;
+	margin-top:12px;
+	/*background:#00CCCC;*/
+}
+.recent_box1
+{
+	height:150px;
+	width:80px;
+	float:left;
+	margin:5px;
+	background:url(img/thEQ7BB2F1.jpg);
+}
+.recent_box1:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+
+.recent_box2
+{
+	height:150px;
+	width:80px;
+	float:left;
+	margin:5px;
+	background:url(img/thLK7GPNUE.jpg);
+}
+.recent_box2:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.recent_box3
+{
+	height:150px;
+	width:80px;
+	float:left;
+	margin:5px;
+	background:url(img/thWFY9TL74.jpg);
+}
+.recent_box3:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+
+.recent_box4
+{
+	height:150px;
+	width:140px;
+	float:left;
+	margin:5px;
+	background-repeat:no-repeat;
+	background:url(img/thMZJ69XTS.jpg);
+}
+.recent_box4:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+
+.recent_box5
+{
+	height:150px;
+	width:130px;
+	float:left;
+	margin:5px;
+	background:url(img/thVO2C334N.jpg);
+}
+.recent_box5:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+
+
+
+#right_box
+{
+	height:1200px;
+	width:1000px;
+	//background:#CCFF99;
+	float:right;
+}
+#slider
+{
+	height:500px;
+	width:990px;
+	/*background:#CCCCCC;*/
+	position:absolute;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.slide1
+{
+	height:500px;
+	width:990px;
+	position:absolute;
+	top:500px;
+	right:0;
+	background-image:url(img/banner11111.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	-webkit-animation:img1 9s ease 2s infinite;
+}
+.slide2
+{
+	height:500px;
+	width:990px;
+	position:absolute;
+	top:500px;
+	right:-990px;
+	background-image:url(img/banner22222.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	-webkit-animation:img2 9s ease 2s infinite;
+}
+.slide3
+{
+	height:500px;
+	width:990px;
+	position:absolute;
+	top:500px;
+	right:-1000px;
+	background-image:url(img/banner33333.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	-webkit-animation:img3 9s ease 2s infinite;
+}
+.slide4
+{
+	height:500px;
+	width:990px;
+	position:absolute;
+	top:500px;
+	right:-990px;
+	background-image:url(img/banner44444.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	-webkit-animation:img4 9s ease 2s infinite;
+}
+
+@-webkit-keyframes img1
+{
+	0%{right:-990px; top:0;}
+	25%{right:-990px; top:0;}
+	50%{right:-990px; top:0;}
+	75%{right:0; top:0;}
+	100%{right:1000; top:0;}
+}
+@-webkit-keyframes img2
+{
+	0%{right:-990px; top:0;}
+	25%{right:-990px; top:0;}
+	50%{right:0; top:0;}
+	75%{right:990px; top:0;}
+	100%{right:990px; top:0;}
+}
+@-webkit-keyframes img3
+{
+	0%{right:-990px; top:0;}
+	25%{right:0; top:0;}
+	50%{right:990px; top:0;}
+	75%{right:990px; top:0;}
+	100%{right:990px; top:0;}
+}
+@-webkit-keyframes img4
+{
+	0%{right:0px; top:0;}
+	25%{right:990px; top:0;}
+	50%{right:990px; top:0;}
+	75%{right:990px; top:0;}
+	100%{right:990px; top:0;}
+}
+
+#sale11
+{
+	height:300px;
+	width:1000px;
+	margin-top:530px;
+	margin-bottom:30px;
+	background:rgba(102,51,204,0.3);
+	cursor:pointer;
+}
+.sale111
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale2.jpg);
+}
+.sale111:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale222
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale1.jpg);
+}
+.sale222:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale333
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale3.jpg);
+}
+.sale333:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale444
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale6.jpg);
+}
+.sale444:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale555
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale8.jpg);
+}
+.sale555:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+
+
+
+
+#sale22
+{
+	height:300px;
+	width:1000px;
+	background:rgba(102,51,204,0.3);
+	cursor:pointer;
+}
+.sale666
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale12.jpg);
+}
+.sale666:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale777
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale7.jpg);
+}
+.sale777:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale888
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale11.jpg);
+}
+.sale888:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale999
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale9.jpg);
+}
+.sale999:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+.sale001
+{
+	height:290px;
+	width:190px;
+	float:left;
+	margin:5px;
+	background:url(img/sale10.jpg);
+}
+.sale001:hover
+{
+	-webkit-animation:bouncein 0.7s linear 0s;
+	animation-fill-mode:forwards;
+}
+@keyframes bouncein
+{
+	0%{transform:scale(1);}
+	30%{transform:scale(1.15);}
+	65%{transform:scale(1.1);}
+	100%{transform:scale(1.2);}
+}
+
+
+
+#footer1
+{
+	height:500px;
+	width:1330px;
+	border-top:2px solid rgba(102,102,102,0.7);
+}
+.boxes1
+{
+	height:500px;
+	width:235px;
+	background:#FFFFFF;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	padding-left:0;
+}
+.boxes2
+{
+	height:500px;
+	width:350px;
+	background:#FFFFFF;
+	float:left;
+	margin-left:9px;
+	margin-right:5px;
+	cursor:pointer;
+	padding-left:0;
+}
+.boxhvr
+{
+	overflow:hidden;
+	position:absolute;
+	-webkit-transition:all 200ms linear;
+}
+.boxhvr img:hover
+{
+	transform:scale(1.5);
+	transition:all 0.5s ease;
+}
+
+#footer2
+{
+	height:220px;
+	width:1330px;
+	margin:0 auto;
+	background:rgba(204,204,204,0.1);
+	padding-top:80px;
+	
+}
+.flogo
+{
+	height:45px;
+	width:1330px;
+	margin:0 auto;
+	padding-top:5px;
+	padding-left:400px;
+	/*background:#999999;*/
+}
+.ftrmenu
+{
+	height:50px;
+	width:1330px;
+	/*background:#00CC66;*/
+}
+.ftrmenu ul
+{
+	alignment-adjust:auto;
+	padding-left:340px;
+}
+.ftrmenu ul li
+{
+	float:left;
+	list-style:none;
+	display:block;
+	height:25px;
+	padding-right:25px;
+	font-family:Javanese Text;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	text-decoration:none;
+	text-align:center;
+	font-style:bold;
+	cursor:pointer;
+}
+.ftrmenu ul li:hover
+{
+	color:rgba(102,102,102,1);
+}
+.add
+{
+	height:30px;
+	width:1330px;
+	/*background:rgba(0,204,255,1);*/
+	alignment-adjust:auto;
+	list-style:none;
+	font-family:Javanese Text;
+	font-size:14px;
+	color:rgba(0,0,0,1);
+	line-height:10px;
+	text-decoration:none;
+	text-align:center;
+	font-style:bold;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="blue">FINAL MARKDOWNS! 50–70% OFF SELECT STYLES. </div>
+	<div id="header1">
+    	<div class="wishlist1">Free Shipping Over $100 to US, CA, and AU! Free Shipping Over 		$150 to    all other countries</div>
+		<div class="login"> 
+        	<input type="submit" value="Login" class="btn" />
+            <input type="submit" value="Registration" class="btn" />
+        </div>
+			<div class="logo"><img src="img/00.jpg" /></div>
+            <div class="logo"><img src="img/shopping.jpg" /></div>
+            <div class="logo"><img src="img/00.jpg" /></div>
+            <div class="logo"><img src="img/heart.jpg" /></div>
+     </div>
+	 <div id="upscale">
+     	<div class="order_status1">Order Status</div>
+        <div class="order_status1"><center><img src="img/upscale.png" /></center></div>
+        <div class="order_status2">Search</div>
+        <div class="srch_logo"></div>
+     </div>
+     
+	<div class="menu">
+		<ul>
+    		<li><a href="home.html">Home</a></li>
+        	<li><a href="2shop.html">Shop</a></li>
+            <li><a href="3dresses.html">Dresses</a></li>
+            <li><a href="4portfolio.html">Portfolio</a></li>
+            <li><a href="5sale.html" class="current">Sale</a></li>
+            <li><a href="6terms.html">Terms & Service</a></li>
+            <li><a href="7about.html">About</a></li>
+        	<li><a href="8contact.html">Contact</a></li>
+    	</ul>
+	</div>
+    <div id="shop"><b>SALE</b></div>
+    
+    
+    <div id="lrbox">
+    <div class="left_box">
+    
+    
+<div class="color">
+    <table height="380" width="300" border="0">
+    <tr><td colspan="3" height="25"><h2>Color Filter</h2></td>
+    </tr>
+    <tr><td width="30"><img src="img/001.jpg" height="30" width="30" /></td>
+    	<td>Yellow</td>
+        <td width="15">3</td>
+    </tr>
+    <tr><td><img src="img/02.jpg" height="30" width="30" /></td>
+    	<td>Black</td>
+        <td>3</td>
+    </tr>
+    <tr><td><img src="img/03.jpg" height="30" width="30" /></td>
+    	<td>Green</td>
+        <td>5</td>
+    </tr>
+    <tr><td><img src="img/04.jpg" height="30" width="30" /></td>
+    	<td>Orange</td>
+        <td>6</td>
+    </tr>
+    <tr><td><img src="img/05.jpg" height="30" width="30" /></td>
+    	<td>Navy</td>
+        <td>5</td>
+    </tr>
+    <tr><td><img src="img/06.jpg" height="30" width="30" /></td>
+    	<td>Rose</td>
+        <td>8</td>
+    </tr>
+    <tr><td><img src="img/07.jpg" height="30" width="30" /></td>
+    	<td>Sky Blue</td>
+        <td>2</td>
+    </tr>
+    <tr><td><img src="img/01.jpg" height="30" width="30" /></td>
+    	<td>White</td>
+        <td>6</td>
+    </tr>
+    <tr><td><img src="img/08.jpg" height="30" width="30" /></td>
+    	<td>Maroon</td>
+        <td>2</td>
+    </tr>
+</table></div>
+    
+    
+    <div id="categori"><h2>Product Categories</h2>
+    	<div class="cate_box">Dresses  <div class="num">(7)</div></div>
+        <div class="cate_box">Jackets  <div class="num">(7)</div></div>
+        <div class="cate_box">Jeans <div class="num">(5)</div></div>
+        <div class="cate_box">Jumpsuits  <div class="num">(4)</div></div>
+        <div class="cate_box">Tops  <div class="num">(5)</div></div>
+    </div>
+    
+    <div id="tags"><h2>Product Tags</h2>
+    	<div class="tag">DRESSES</div>
+        <div class="tag">JACKETS</div>
+        <div class="tag">JEANS</div>
+        <div class="tag">JUMPSUIT</div>
+        <div class="tag">TOP</div>
+    </div>
+    <div id="recent">
+    	<div class="recent_box1"></div>
+        <div class="recent_box2"></div>
+        <div class="recent_box3"></div>
+        <div class="recent_box4"></div>
+        <div class="recent_box5"></div>
+    </div>
+    
+</div>
+<div id="right_box">
+                	
+                    <div id="slider">
+                        <div class="slide1"></div>
+                        <div class="slide2"></div>
+                        <div class="slide3"></div>
+                        <div class="slide4"></div>
+                    </div>
+					
+                    <div id="sale11">
+                    	<div class="sale111"></div>
+                    	<div class="sale222"></div>
+                    	<div class="sale333"></div>
+                        <div class="sale444"></div>
+                        <div class="sale555"></div>
+                    </div>
+		            <div id="sale22">
+                    	<div class="sale666"></div>
+                        <div class="sale777"></div>
+                        <div class="sale888"></div>
+                        <div class="sale999"></div>
+                        <div class="sale001"></div>
+                    </div>
+
+
+
+
+
+</div>
+</div>
+    
+    
+    <div id="footer1">
+    
+    	<div class="boxes1">
+       	  <table height="313" width="235" >
+            	<tr>
+                	<td colspan="5" height="70"><h1>UPSCALE</h1></td>
+                </tr>
+                <tr>
+                	<td colspan="5" height="166">Over the years I have learned that what is important in a dress is the woman who is wearing it. Fashion moves so quickly that, unless you have a strong point of view, you<br/> can lose integrity. Men have got more of a discerning eye.</td>
+                </tr>
+                <tr>
+                	<td height="44" width="35"><img src="img/fb.jpg" /></td>
+                    <td width="36"><img src="img/twiter.jpg" /></td>
+                    <td width="34"><img src="img/insta.jpg" /></td>
+                    <td width="34"><img src="img/pintrest.jpg" /></td>
+                    <td width="60"><img src="img/youtube.jpg" /></td>
+                </tr>
+            </table>
+        </div>
+   <div class="boxes2">
+        <table height="500" width="311" >
+        	<tr>
+            	<td colspan="2" height="30"><center><h3>Top Rated Products</h3></center></td>
+            </tr>
+            <tr>
+            	<td width="94" class="boxhvr" ><img src="img/th2O3SGKP5.jpg" height="120" /></td>
+                <td width="244" align="center">Bomber Jacket Print<br /><br /> 39.95$</td>
+            </tr>
+            <tr>
+            	<td class="boxhvr"><img src="img/thJXJ79JZN.jpg" height="120" /></td>
+                <td align="center"> L/S Knit Dress <br /><br />84.95$</td>
+            </tr>
+            <tr>
+            	<td class="boxhvr"><img src="img/thPME1HH8G.jpg" height="120" /></td>
+                <td align="center">Lexy<br />47.95$<br /></td>
+            </tr>
+        </table>
+        </div>
+    <div class="boxes2">
+        <table height="500" width="387" >
+        	<tr>
+            	<td colspan="2" height="30"><center><h3>Recent Posts</h3></center></td>
+            </tr>
+            <tr>
+            	<td width="160" height="150" class="boxhvr"><img src="img/th1W2YZH6H.jpg" height="100" /></td>
+                <td width="228" align="center" >STRAIGHT TO TOP<br /><br /> May24,2017</td>
+            </tr>
+            <tr>
+            	<td height="150" class="boxhvr"><img src="img/thVZ945236.jpg" height="100" /></td>
+                <td align="center">LEATHER & LACE<br /><br />May23,2017</td>
+            </tr>
+            <tr>
+            	<td height="150" class="boxhvr"><img src="img/thWU4JFTC8.jpg" height="100" /></td>
+                <td align="center">BACK TO BACK<br /><br />May23,2017<br /></td>
+            </tr>
+        </table>
+        </div>
+     <div class="boxes1">
+        <table height="204" width="150" align="right" >
+        	<tr height="30">
+            	<td width="150" height="74"><center><h3>Newsletter</h3></center></td>
+            </tr>
+            <tr>
+            	<td height="86">Email Address: <br /><br /><input type="text" class="text" placeholder="your email address" /></td>
+            </tr>
+            <tr>
+            	<td height="34"><input type="submit" value="SUBSCRIBE" /></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    
+       <div id="footer2">
+    	<div class="flogo">
+        	<img src="img/flogo1.jpg" />
+            <img src="img/flogo4.jpg" />
+            <img src="img/flogo2.jpg" />
+            <img src="img/flogo5.jpg" />
+            <img src="img/flogo3.jpg" />
+        </div>
+        <div class="ftrmenu">
+		<ul>
+    		<li>TRACKING ORDER</li>
+            <li>CONTACT</li>
+            <li>FAQ</li>
+            <li>OVER STORES</li>
+            <li>TERMS OF SERVICE</li>
+            <li>ABOUT</li>
+        </ul></div>
+        <div class="add">© 2005 - 2017 DAHZ THEME. ALL RIGHTS RESERVED.</div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
+

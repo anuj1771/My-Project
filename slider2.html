@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+#slider
+{
+	  height:700px;
+	  width:660px;
+	  background:rgba(204,204,204,1);
+	  margin:100px auto;
+	  position:relative;
+	  overflow:hidden;
+}
+
+.slide1
+{
+	left:0; 
+	top:0;
+	height:700px;
+	width:660px;
+	background-image:url(img/slider11.jpg);
+    position:absolute;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	-webkit-animation:img1 15s ease-in-out 0s infinite;
+}
+	  
+.slide2
+{
+	left:0; 
+	top:700px;
+	height:700px;
+	width:660px;
+    background-image:url(img/slider2.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:absolute;
+	-webkit-animation:img2 15s ease-in-out 0s infinite;
+}
+
+.slide3
+{
+	left:0;
+	top:700px;
+	height:700px;
+	width:660px;
+	background-image:url(img/slider33.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:absolute; 
+	-webkit-animation:img3 15s ease-in-out 0s infinite;
+}
+.slide4
+{
+	left:0;
+	top:700px;
+	height:700px;
+	width:660px;
+	background-image:url(img/slider4.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:absolute; 
+	-webkit-animation:img4 15s ease-in-out 0s infinite;
+}
+@keyframes img1
+{
+	0%{left:0; top:0;}
+	20%{left:0; top:0px;}
+	40%{left:0; top:700px;}
+	60%{left:0; top:700px;}
+	80%{left:0; top:700px;}
+	100%{left:0; top:700px;}
+}
+
+@keyframes img2
+{
+	0%{left:0; top:-700px;}
+	20%{left:0; top:0px;}
+	40%{left:0; top:0px;}
+	60%{left:0; top:700px;}
+	80%{left:0; top:700px;}
+	100%{left:0; top:700px;}
+}
+@keyframes img3
+{
+	0%{left:0; top:-700px;}
+	20%{left:0; top:-700px;}
+	40%{left:0; top:0px;}
+	60%{left:0; top:0px;}
+	80%{left:0; top:700px;}
+	100%{left:0; top:700px;}
+}
+@keyframes img4
+{
+	0%{left:0; top:-700px;}
+	20%{left:0; top:-700px;}
+	40%{left:0; top:-700px;}
+	60%{left:0; top:-700px;}
+	80%{left:0; top:0px;}
+	100%{left:0; top:0px;}
+}
+
+</style>
+</head>
+
+<body>
+<div id="slider">
+	<div class="slide1">
+    	<img src="img/slider11.jpg" height="100%" width="100%" />
+    </div>
+    <div class="slide2">
+    	<img src="img/slider2.jpg" height="100%" width="100%" />
+    </div>
+    
+    <div class="slide3">
+    	<img src="img/slider33.jpg" height="100%" width="100%" />
+    </div>
+    <div class="slide4">
+    	<img src="img/slider4.jpg" height="100%" width="100%" />
+    </div>
+</div>
+</body>
+</html>
